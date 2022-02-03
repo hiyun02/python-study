@@ -1,7 +1,7 @@
 def solution01(citations):
 
     print(citations)
-    print(type(clitations))
+    print(type(citations))
     citations.sort(reverse=True)
 
     print(citations)
@@ -23,3 +23,5 @@ def solution01(citations):
     return len(citations)
 
 
+if __name__ == "__main__":
+    print(solution01([3,0,6,1,5]))
