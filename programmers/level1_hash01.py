@@ -20,8 +20,9 @@ def solution01(participant, completion) :
 #내 풀이
 def solution02(participant, completion) :
     participant.sort
-    completion.sort;
-    i=0;
+    completion.sort
+
+    i=0
     while completion[i]==participant[i] :
             i=i+1
             if i==completion.length :
